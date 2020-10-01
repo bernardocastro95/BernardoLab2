@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">160dp</dimen>
+    <dimen name="top">350dp</dimen>
+    <dimen name="top_logo">250dp</dimen>
+    <dimen name="width_logo">100dp</dimen>
+    <dimen name="height_logo">90dp</dimen>
+</resources>

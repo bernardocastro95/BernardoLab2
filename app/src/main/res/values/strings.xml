@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">BernardoLab2</string>
+    <string name="app_name" translatable="false">BernardoLab2</string>
+    <string name="enter">Enter</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>
