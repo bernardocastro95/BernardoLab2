@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="enter">Entrer</string>
+    <string name="apartment">Appartement</string>
+    <string name="detached_home">Maison Individuelle</string>
+    <string name="semi_detached_home">Maison Jumelée</string>
+    <string name="condominium">Appartement en Copropriété</string>
+    <string name="town_house">Maison de Ville</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>
