@@ -8,4 +8,13 @@
     <dimen name="top_buttton_landscape">250dp</dimen>
     <dimen name="width_logo">100dp</dimen>
     <dimen name="height_logo">90dp</dimen>
+    <dimen name="width_image">120dp</dimen>
+    <dimen name="height_image">120dp</dimen>
+    <dimen name="left_image">130dp</dimen>
+    <dimen name="checkbox_layout">300dp</dimen>
+    <dimen name="left_check">130dp</dimen>
+    <dimen name="left_check_two">100dp</dimen>
+    <dimen name="top_button_layout">500dp</dimen>
+    <dimen name="image_layout_top">150dp</dimen>
+    <dimen name="left_button">100dp</dimen>
 </resources>

@@ -1,9 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".castroActivityOptions">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/image_layout_top"
+        android:id="@+id/bernardoImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bernardoFirstOptionImage"
+            android:layout_width="@dimen/width_image"
+            android:layout_height="@dimen/height_image"
+            />
+        <ImageView
+            android:id="@+id/bernardoSecondtOptionImage"
+            android:layout_width="@dimen/width_image"
+            android:layout_height="@dimen/height_image"
+            />
+        <ImageView
+            android:id="@+id/bernardoThirdOptionImage"
+            android:layout_width="@dimen/width_image"
+            android:layout_height="@dimen/height_image"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/checkbox_layout"
+        android:id="@+id/bernardoCheckBoxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/bernardoOptionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_marginStart="@dimen/left_check"
+            android:id="@+id/bernardoOptionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <CheckBox
+            android:layout_marginStart="@dimen/left_check_two"
+            android:id="@+id/bernardoOptionThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_button_layout"
+        android:id="@+id/bernardoButtonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginStart="@dimen/left_button"
+            android:id="@+id/bernardoButtonCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proceed"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
