@@ -17,4 +17,8 @@
     <dimen name="top_button_layout">500dp</dimen>
     <dimen name="image_layout_top">150dp</dimen>
     <dimen name="left_button">100dp</dimen>
+    <dimen name="top_landscape">50dp</dimen>
+    <dimen name="check_top_landscape">210dp</dimen>
+    <dimen name="check_button_landscape">250dp</dimen>
+    <dimen name="left_options_landscape">170dp</dimen>
 </resources>

@@ -3,6 +3,7 @@ package bernardo.castro.s301073235;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -12,7 +13,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.Toast;
-
+//Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002
 public class castroActivityOptions extends AppCompatActivity {
 
     ImageView option1, option2, option3;
@@ -30,8 +31,46 @@ public class castroActivityOptions extends AppCompatActivity {
         check3 = findViewById(R.id.bernardoOptionThree);
         proceed = findViewById(R.id.bernardoButtonCheckout);
 
+        check1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(check1.isChecked()){
+                    proceed.setVisibility(View.VISIBLE);
+                }
+                else if(!check1.isChecked() && !check2.isChecked() && !check3.isChecked()){
+                    proceed.setVisibility(View.GONE);
+                }
+            }
+        });
+        check2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(check2.isChecked()){
+                    proceed.setVisibility(View.VISIBLE);
+                }
+                else if(!check1.isChecked() && !check2.isChecked() && !check3.isChecked()){
+                    proceed.setVisibility(View.GONE);
+                }
+            }
+        });
+        check3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(check3.isChecked()){
+                    proceed.setVisibility(View.VISIBLE);
+                }
+                else if(!check1.isChecked() && !check2.isChecked() && !check3.isChecked()){
+                    proceed.setVisibility(View.GONE);
+                }
+            }
+        });
 
-        //Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002
+        proceed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(castroActivityOptions.this, castroActivityPaymentOptions.class));
+            }
+        });
     }
 
     @Override
@@ -51,7 +90,7 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                proceed.setVisibility(View.VISIBLE);
+                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoDetachedHome:
                 option1.setImageResource(R.drawable.house1);
@@ -60,7 +99,7 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                proceed.setVisibility(View.VISIBLE);
+                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoSemiDetachedHome:
                 option1.setImageResource(R.drawable.semi1);
@@ -69,7 +108,7 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                proceed.setVisibility(View.VISIBLE);
+                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoCondominium:
                 option1.setImageResource(R.drawable.condominium1);
@@ -78,7 +117,7 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                proceed.setVisibility(View.VISIBLE);
+                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoTownHouse:
                 option1.setImageResource(R.drawable.town1);
@@ -87,7 +126,7 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                proceed.setVisibility(View.VISIBLE);
+                //proceed.setVisibility(View.VISIBLE);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
