@@ -7,5 +7,9 @@
     <string name="condominium">Appartement en Copropriété</string>
     <string name="town_house">Maison de Ville</string>
     <string name="proceed">Passer à La Caisse</string>
+    <string name="intro">Veuillez sélectionner l\'une de nos options dans le menu dans le coin supérieur droit</string>
+    <string name="payment_method">Veuillez sélectionner une option de paiement</string>
+    <string name="cash">En espèces</string>
+    <string name="card">Carte de débit / crédit</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>

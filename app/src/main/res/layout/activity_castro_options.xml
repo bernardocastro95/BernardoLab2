@@ -29,6 +29,12 @@
             />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/bernardoIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"/>
+
     <LinearLayout
         android:layout_marginTop="@dimen/checkbox_layout"
         android:id="@+id/bernardoCheckBoxes"

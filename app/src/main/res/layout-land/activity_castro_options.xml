@@ -1,75 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bernardoIntroText"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginStart="@dimen/left_options_landscape">
 
 
     <LinearLayout
-        android:layout_marginTop="@dimen/top_landscape"
         android:id="@+id/bernardoImages"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_landscape">
+
         <ImageView
             android:id="@+id/bernardoFirstOptionImage"
             android:layout_width="@dimen/width_image"
-            android:layout_height="@dimen/height_image"
-            />
+            android:layout_height="@dimen/height_image" />
+
         <ImageView
             android:id="@+id/bernardoSecondtOptionImage"
             android:layout_width="@dimen/width_image"
-            android:layout_height="@dimen/height_image"
-            />
+            android:layout_height="@dimen/height_image" />
+
         <ImageView
             android:id="@+id/bernardoThirdOptionImage"
             android:layout_width="@dimen/width_image"
-            android:layout_height="@dimen/height_image"
-            />
+            android:layout_height="@dimen/height_image" />
     </LinearLayout>
 
+
+    <TextView
+        android:id="@+id/bernardoIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"/>
+
     <LinearLayout
-        android:layout_marginTop="@dimen/check_top_landscape"
         android:id="@+id/bernardoCheckBoxes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/check_top_landscape"
         android:orientation="horizontal">
 
         <CheckBox
             android:id="@+id/bernardoOptionOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"/>
+            android:visibility="invisible" />
+
         <CheckBox
-            android:layout_marginStart="@dimen/left_check"
             android:id="@+id/bernardoOptionTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"/>
+            android:layout_marginStart="@dimen/left_check"
+            android:visibility="invisible" />
+
         <CheckBox
-            android:layout_marginStart="@dimen/left_check_two"
             android:id="@+id/bernardoOptionThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"/>
+            android:layout_marginStart="@dimen/left_check_two"
+            android:visibility="invisible" />
 
     </LinearLayout>
 
 
     <LinearLayout
-        android:layout_marginTop="@dimen/check_button_landscape"
         android:id="@+id/bernardoButtonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/check_button_landscape"
         android:orientation="horizontal">
 
         <Button
-            android:layout_marginStart="@dimen/left_button"
             android:id="@+id/bernardoButtonCheckout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/left_button"
             android:text="@string/proceed"
-            android:visibility="invisible"/>
+            android:visibility="invisible" />
 
     </LinearLayout>
 

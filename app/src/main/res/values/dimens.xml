@@ -21,4 +21,7 @@
     <dimen name="check_top_landscape">210dp</dimen>
     <dimen name="check_button_landscape">250dp</dimen>
     <dimen name="left_options_landscape">170dp</dimen>
+    <dimen name="radio_top_1">50dp</dimen>
+    <dimen name="radio_top_2">100dp</dimen>
+    <dimen name="radio_right">200dp</dimen>
 </resources>

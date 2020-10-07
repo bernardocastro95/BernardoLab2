@@ -7,6 +7,10 @@
     <string name="condominium">Condominium Apartment</string>
     <string name="town_house">Town House</string>
     <string name="proceed">Proceed to Checkout</string>
+    <string name="intro">Please select one of our options at the menu on the right top corner</string>
+    <string name="payment_method">Please select a payment option</string>
+    <string name="cash">Cash</string>
+    <string name="card">Debit/Credit Card</string>
 
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>

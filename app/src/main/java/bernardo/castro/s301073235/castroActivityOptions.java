@@ -12,10 +12,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 //Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002
 public class castroActivityOptions extends AppCompatActivity {
 
+    TextView intro;
     ImageView option1, option2, option3;
     CheckBox check1, check2, check3;
     Button proceed;
@@ -30,6 +32,7 @@ public class castroActivityOptions extends AppCompatActivity {
         check2 = findViewById(R.id.bernardoOptionTwo);
         check3 = findViewById(R.id.bernardoOptionThree);
         proceed = findViewById(R.id.bernardoButtonCheckout);
+        intro = findViewById(R.id.bernardoIntro);
 
         check1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,49 +87,49 @@ public class castroActivityOptions extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.bernardoApartment:
+                intro.setVisibility(View.INVISIBLE);
                 option1.setImageResource(R.drawable.option1);
                 option2.setImageResource(R.drawable.option2);
                 option3.setImageResource(R.drawable.option3);
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoDetachedHome:
+                intro.setVisibility(View.INVISIBLE);
                 option1.setImageResource(R.drawable.house1);
                 option2.setImageResource(R.drawable.house2);
                 option3.setImageResource(R.drawable.house3);
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoSemiDetachedHome:
+                intro.setVisibility(View.INVISIBLE);
                 option1.setImageResource(R.drawable.semi1);
                 option2.setImageResource(R.drawable.semi2);
                 option3.setImageResource(R.drawable.semi3);
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoCondominium:
+                intro.setVisibility(View.INVISIBLE);
                 option1.setImageResource(R.drawable.condominium1);
                 option2.setImageResource(R.drawable.condominium2);
                 option3.setImageResource(R.drawable.condominium3);
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                //proceed.setVisibility(View.VISIBLE);
                 return true;
             case R.id.bernardoTownHouse:
+                intro.setVisibility(View.INVISIBLE);
                 option1.setImageResource(R.drawable.town1);
                 option2.setImageResource(R.drawable.town2);
                 option3.setImageResource(R.drawable.town3);
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
-                //proceed.setVisibility(View.VISIBLE);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
