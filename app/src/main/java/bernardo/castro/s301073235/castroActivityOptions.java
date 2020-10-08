@@ -17,7 +17,7 @@ import android.widget.Toast;
 //Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002
 public class castroActivityOptions extends AppCompatActivity {
 
-    TextView intro;
+    TextView intro, address1, address2, address3, price1, price2, price3;
     ImageView option1, option2, option3;
     CheckBox check1, check2, check3;
     Button proceed;
@@ -33,6 +33,12 @@ public class castroActivityOptions extends AppCompatActivity {
         check3 = findViewById(R.id.bernardoOptionThree);
         proceed = findViewById(R.id.bernardoButtonCheckout);
         intro = findViewById(R.id.bernardoIntro);
+        address1 = findViewById(R.id.bernardoOption1Address);
+        address2 = findViewById(R.id.bernardoOption2Address);
+        address3 = findViewById(R.id.bernardoOption3Address);
+        price1 = findViewById(R.id.bernardoOption1Price);
+        price2 = findViewById(R.id.bernardoOption2Price);
+        price3 = findViewById(R.id.bernardoOption3Price);
 
         check1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +100,12 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
+                address1.setText(R.string.apartment_option1_address);
+                price1.setText(R.string.apartment_option1_price);
+                address2.setText(R.string.apartment_option2_address);
+                price2.setText(R.string.apartment_option2_price);
+                address3.setText(R.string.apartment_option3_address);
+                price3.setText(R.string.apartment_option3_price);
                 return true;
             case R.id.bernardoDetachedHome:
                 intro.setVisibility(View.INVISIBLE);

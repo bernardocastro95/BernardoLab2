@@ -13,5 +13,11 @@
     <string name="card">Carte de débit / crédit</string>
     <string name="cash_selected">Merci pour votre achat</string>
     <string name="card_form_button">Formulaire</string>
+    <string name="apartment_option1_address">Fausse Rue 123</string>
+    <string name="apartment_option1_price">50,000</string>
+    <string name="apartment_option2_address">Cette Rue 420</string>
+    <string name="apartment_option2_price">500,000</string>
+    <string name="apartment_option3_address">Avenue sans nom 007</string>
+    <string name="apartment_option3_price">1,000,000</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>

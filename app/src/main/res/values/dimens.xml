@@ -11,7 +11,7 @@
     <dimen name="width_image">120dp</dimen>
     <dimen name="height_image">120dp</dimen>
     <dimen name="left_image">130dp</dimen>
-    <dimen name="checkbox_layout">300dp</dimen>
+    <dimen name="checkbox_layout">350dp</dimen>
     <dimen name="left_check">130dp</dimen>
     <dimen name="left_check_two">100dp</dimen>
     <dimen name="top_button_layout">500dp</dimen>
@@ -24,4 +24,7 @@
     <dimen name="radio_top_1">50dp</dimen>
     <dimen name="card_button_top">200dp</dimen>
     <dimen name="radio_right">200dp</dimen>
+    <dimen name="magin_info">300dp</dimen>
+    <dimen name="left_info1">140dp</dimen>
+    <dimen name="left_info2">250dp</dimen>
 </resources>
