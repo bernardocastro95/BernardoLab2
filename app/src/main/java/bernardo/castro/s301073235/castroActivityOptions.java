@@ -45,9 +45,18 @@ public class castroActivityOptions extends AppCompatActivity {
             public void onClick(View view) {
                 if(check1.isChecked()){
                     proceed.setVisibility(View.VISIBLE);
+                    address1.setVisibility(View.VISIBLE);
+                    price1.setVisibility(View.VISIBLE);
+                    address2.setVisibility(View.INVISIBLE);
+                    price2.setVisibility(View.INVISIBLE);
+                    address3.setVisibility(View.INVISIBLE);
+                    price3.setVisibility(View.INVISIBLE);
+
                 }
                 else if(!check1.isChecked() && !check2.isChecked() && !check3.isChecked()){
                     proceed.setVisibility(View.GONE);
+                    address1.setVisibility(View.INVISIBLE);
+                    price1.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -56,9 +65,17 @@ public class castroActivityOptions extends AppCompatActivity {
             public void onClick(View view) {
                 if(check2.isChecked()){
                     proceed.setVisibility(View.VISIBLE);
+                    address2.setVisibility(View.VISIBLE);
+                    price2.setVisibility(View.VISIBLE);
+                    address3.setVisibility(View.INVISIBLE);
+                    price3.setVisibility(View.INVISIBLE);
+                    address1.setVisibility(View.INVISIBLE);
+                    price1.setVisibility(View.INVISIBLE);
                 }
                 else if(!check1.isChecked() && !check2.isChecked() && !check3.isChecked()){
                     proceed.setVisibility(View.GONE);
+                    address2.setVisibility(View.INVISIBLE);
+                    price2.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -67,9 +84,18 @@ public class castroActivityOptions extends AppCompatActivity {
             public void onClick(View view) {
                 if(check3.isChecked()){
                     proceed.setVisibility(View.VISIBLE);
+                    address3.setVisibility(View.VISIBLE);
+                    price3.setVisibility(View.VISIBLE);
+                    proceed.setVisibility(View.INVISIBLE);
+                    address1.setVisibility(View.INVISIBLE);
+                    price1.setVisibility(View.INVISIBLE);
+                    address2.setVisibility(View.INVISIBLE);
+                    price2.setVisibility(View.INVISIBLE);
                 }
                 else if(!check1.isChecked() && !check2.isChecked() && !check3.isChecked()){
                     proceed.setVisibility(View.GONE);
+                    address3.setVisibility(View.INVISIBLE);
+                    price3.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -102,10 +128,16 @@ public class castroActivityOptions extends AppCompatActivity {
                 check3.setVisibility(View.VISIBLE);
                 address1.setText(R.string.apartment_option1_address);
                 price1.setText(R.string.apartment_option1_price);
+                address1.setVisibility(View.INVISIBLE);
+                price1.setVisibility(View.INVISIBLE);
                 address2.setText(R.string.apartment_option2_address);
                 price2.setText(R.string.apartment_option2_price);
+                address2.setVisibility(View.INVISIBLE);
+                price2.setVisibility(View.INVISIBLE);
                 address3.setText(R.string.apartment_option3_address);
                 price3.setText(R.string.apartment_option3_price);
+                address3.setVisibility(View.INVISIBLE);
+                price3.setVisibility(View.INVISIBLE);
                 return true;
             case R.id.bernardoDetachedHome:
                 intro.setVisibility(View.INVISIBLE);
