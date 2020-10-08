@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".castroActivityPaymentOptions"></activity>
+        <activity android:name=".castroActivityCardForm"></activity>
+        <activity android:name=".castroActivityPaymentOptions" />
         <activity android:name=".castroActivityOptions" />
         <activity android:name=".bernardoActivity">
             <intent-filter>

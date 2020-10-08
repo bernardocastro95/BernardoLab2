@@ -11,37 +11,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/payment_method" />
-    <LinearLayout
-        android:id="@+id/bernardoFirstRadio"
+
+        <RadioGroup
+            android:layout_marginTop="@dimen/radio_top_1"
+            android:id="@+id/bernardoRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/bernardoCashButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cash" />
+
+            <RadioButton
+                android:id="@+id/bernardoCardButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card" />
+        </RadioGroup>
+
+    <Button
+        android:layout_marginTop="@dimen/card_button_top"
+        android:visibility="invisible"
+        android:id="@+id/bernardoButtonForm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/radio_top_1"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/bernardoCashButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cash" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginTop="@dimen/radio_top_2"
-        android:id="@+id/bernardoSecondRadio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <RadioButton
-            android:id="@+id/bernardoCardButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/card" />
-
-    </LinearLayout>
-
-
+        android:text="@string/card_form_button" />
 
 
 </RelativeLayout>

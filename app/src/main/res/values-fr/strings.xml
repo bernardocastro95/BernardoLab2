@@ -11,5 +11,7 @@
     <string name="payment_method">Veuillez sélectionner une option de paiement</string>
     <string name="cash">En espèces</string>
     <string name="card">Carte de débit / crédit</string>
+    <string name="cash_selected">Merci pour votre achat</string>
+    <string name="card_form_button">Formulaire</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>
