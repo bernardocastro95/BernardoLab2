@@ -32,4 +32,9 @@
     <dimen name="margin_price_land">190dp</dimen>
     <dimen name="left_land_1">130dp</dimen>
     <dimen name="left_land_2">250dp</dimen>
+    <dimen name="top_number">50dp</dimen>
+    <dimen name="top_name">90dp</dimen>
+    <dimen name="top_date">130dp</dimen>
+    <dimen name="top_code">170dp</dimen>
+    <dimen name="top_submit_button_card">210dp</dimen>
 </resources>

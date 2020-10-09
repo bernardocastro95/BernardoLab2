@@ -19,6 +19,11 @@
     <string name="apartment_option2_price">70,000</string>
     <string name="apartment_option3_address">Nameless Avenue 007</string>
     <string name="apartment_option3_price">90,000</string>
+    <string name="name_hint">Insert your name as impressed in card</string>
+    <string name="date_hint">MM/YYYY</string>
+    <string name="number_hint">XXXX XXXX XXXX XXXX</string>
+    <string name="code_hint">Three numbers</string>
+    <string name="submit_card">Submit</string>
 
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>
