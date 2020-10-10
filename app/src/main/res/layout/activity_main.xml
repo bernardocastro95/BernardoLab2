@@ -22,5 +22,13 @@
         android:layout_marginTop="@dimen/top"
         android:text="@string/enter" />
 
+    <TextView
+        android:id="@+id/bernardoTextLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/logo_left"
+        android:layout_marginTop="@dimen/top_company"
+        android:text="@string/company_name" />
+
 
 </RelativeLayout>

@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".bernardoActivity">
 
+    <TextView
+        android:id="@+id/bernardoTextLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/name_left_land"
+        android:layout_marginTop="@dimen/name_company_land"
+        android:text="@string/company_name" />
+
     <ImageView
         android:id="@+id/bernardoLogo"
         android:layout_width="@dimen/width_logo"

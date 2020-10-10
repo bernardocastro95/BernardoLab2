@@ -37,4 +37,8 @@
     <dimen name="top_date">130dp</dimen>
     <dimen name="top_code">170dp</dimen>
     <dimen name="top_submit_button_card">210dp</dimen>
+    <dimen name="logo_left">150dp</dimen>
+    <dimen name="top_company">200dp</dimen>
+    <dimen name="name_company_land">100dp</dimen>
+    <dimen name="name_left_land">260dp</dimen>
 </resources>

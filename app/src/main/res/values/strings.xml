@@ -24,6 +24,7 @@
     <string name="number_hint">XXXX XXXX XXXX XXXX</string>
     <string name="code_hint">Three numbers</string>
     <string name="submit_card">Submit</string>
+    <string name="company_name" translatable="false">LeaseOrRentHome Inc.</string>
 
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>

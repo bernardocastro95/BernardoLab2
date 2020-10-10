@@ -147,6 +147,18 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
+                address1.setText(R.string.apartment_option1_address);
+                price1.setText(R.string.apartment_option1_price);
+                address1.setVisibility(View.INVISIBLE);
+                price1.setVisibility(View.INVISIBLE);
+                address2.setText(R.string.apartment_option2_address);
+                price2.setText(R.string.apartment_option2_price);
+                address2.setVisibility(View.INVISIBLE);
+                price2.setVisibility(View.INVISIBLE);
+                address3.setText(R.string.apartment_option3_address);
+                price3.setText(R.string.apartment_option3_price);
+                address3.setVisibility(View.INVISIBLE);
+                price3.setVisibility(View.INVISIBLE);
                 return true;
             case R.id.bernardoSemiDetachedHome:
                 intro.setVisibility(View.INVISIBLE);
@@ -156,6 +168,18 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
+                address1.setText(R.string.apartment_option1_address);
+                price1.setText(R.string.apartment_option1_price);
+                address1.setVisibility(View.INVISIBLE);
+                price1.setVisibility(View.INVISIBLE);
+                address2.setText(R.string.apartment_option2_address);
+                price2.setText(R.string.apartment_option2_price);
+                address2.setVisibility(View.INVISIBLE);
+                price2.setVisibility(View.INVISIBLE);
+                address3.setText(R.string.apartment_option3_address);
+                price3.setText(R.string.apartment_option3_price);
+                address3.setVisibility(View.INVISIBLE);
+                price3.setVisibility(View.INVISIBLE);
                 return true;
             case R.id.bernardoCondominium:
                 intro.setVisibility(View.INVISIBLE);
@@ -165,6 +189,18 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
+                address1.setText(R.string.apartment_option1_address);
+                price1.setText(R.string.apartment_option1_price);
+                address1.setVisibility(View.INVISIBLE);
+                price1.setVisibility(View.INVISIBLE);
+                address2.setText(R.string.apartment_option2_address);
+                price2.setText(R.string.apartment_option2_price);
+                address2.setVisibility(View.INVISIBLE);
+                price2.setVisibility(View.INVISIBLE);
+                address3.setText(R.string.apartment_option3_address);
+                price3.setText(R.string.apartment_option3_price);
+                address3.setVisibility(View.INVISIBLE);
+                price3.setVisibility(View.INVISIBLE);
                 return true;
             case R.id.bernardoTownHouse:
                 intro.setVisibility(View.INVISIBLE);
@@ -174,6 +210,18 @@ public class castroActivityOptions extends AppCompatActivity {
                 check1.setVisibility(View.VISIBLE);
                 check2.setVisibility(View.VISIBLE);
                 check3.setVisibility(View.VISIBLE);
+                address1.setText(R.string.apartment_option1_address);
+                price1.setText(R.string.apartment_option1_price);
+                address1.setVisibility(View.INVISIBLE);
+                price1.setVisibility(View.INVISIBLE);
+                address2.setText(R.string.apartment_option2_address);
+                price2.setText(R.string.apartment_option2_price);
+                address2.setVisibility(View.INVISIBLE);
+                price2.setVisibility(View.INVISIBLE);
+                address3.setText(R.string.apartment_option3_address);
+                price3.setText(R.string.apartment_option3_price);
+                address3.setVisibility(View.INVISIBLE);
+                price3.setVisibility(View.INVISIBLE);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
