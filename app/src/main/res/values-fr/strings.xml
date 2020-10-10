@@ -19,10 +19,11 @@
     <string name="apartment_option2_price">70,000</string>
     <string name="apartment_option3_address">Fausse Rue 789</string>
     <string name="apartment_option3_price">90,000</string>
-    <string name="name_hint">Insérez votre nom comme impressionné sur la carte</string>
-    <string name="date_hint">MM/AAAA</string>
+    <string name="name_hint">Nom complet</string>
+    <string name="food_hint">Nourriture</string>
     <string name="number_hint">XXXX XXXX XXXX XXXX</string>
-    <string name="code_hint">Trois nombre</string>
+    <string name="movie_hint">Film préféré</string>
+    <string name="city_hint">Ville préféré</string>
     <string name="submit_card">Soumettre</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>

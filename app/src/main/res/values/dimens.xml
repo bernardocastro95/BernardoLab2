@@ -34,9 +34,10 @@
     <dimen name="left_land_2">250dp</dimen>
     <dimen name="top_number">50dp</dimen>
     <dimen name="top_name">90dp</dimen>
-    <dimen name="top_date">130dp</dimen>
-    <dimen name="top_code">170dp</dimen>
-    <dimen name="top_submit_button_card">210dp</dimen>
+    <dimen name="top_movie">130dp</dimen>
+    <dimen name="top_food">170dp</dimen>
+    <dimen name="top_city">210dp</dimen>
+    <dimen name="top_submit_button_card">250dp</dimen>
     <dimen name="logo_left">150dp</dimen>
     <dimen name="top_company">200dp</dimen>
     <dimen name="name_company_land">100dp</dimen>

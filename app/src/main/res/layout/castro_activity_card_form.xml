@@ -26,22 +26,31 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/bernardoExpireDate"
+        android:id="@+id/bernardoFavoriteFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/top_date"
+        android:layout_marginTop="@dimen/top_food"
         android:ems="10"
-        android:hint="@string/date_hint"
-        android:inputType="date" />
+        android:hint="@string/food_hint"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/bernardoSecurityNumber"
+        android:id="@+id/bernardoFavoriteMovie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/top_code"
+        android:layout_marginTop="@dimen/top_movie"
         android:ems="10"
-        android:hint="@string/code_hint"
-        android:inputType="numberPassword" />
+        android:hint="@string/movie_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bernardoFavoriteCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_city"
+        android:ems="10"
+        android:hint="@string/city_hint"
+        android:inputType="textPersonName" />
 
     <Button
         android:layout_marginTop="@dimen/top_submit_button_card"
