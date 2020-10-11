@@ -25,5 +25,6 @@
     <string name="movie_hint">Film préféré</string>
     <string name="city_hint">Ville préféré</string>
     <string name="submit_card">Soumettre</string>
+    <string name="payment">Votre commande a réussi</string>
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>

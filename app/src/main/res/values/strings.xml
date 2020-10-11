@@ -26,6 +26,7 @@
     <string name="city_hint">Favorite City</string>
     <string name="submit_card">Submit</string>
     <string name="company_name" translatable="false">LeaseOrRentHome Inc.</string>
+    <string name="payment">Your order was successful</string>
 
     <!--Bernardo Silveira dos Santos Castro, StudentID: 301073235, Section 002-->
 </resources>
