@@ -22,7 +22,7 @@
     <string name="name_hint">Full Name</string>
     <string name="food_hint">Favorite Food</string>
     <string name="number_hint">XXXX XXXX XXXX XXXX</string>
-    <string name="movie_hint">Favorite Movies</string>
+    <string name="movie_hint">Favorite Movie</string>
     <string name="city_hint">Favorite City</string>
     <string name="submit_card">Submit</string>
     <string name="company_name" translatable="false">LeaseOrRentHome Inc.</string>
